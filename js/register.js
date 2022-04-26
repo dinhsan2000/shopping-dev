@@ -12,7 +12,7 @@ function CheckEmail(text) {
 
 // Hàm check password xem có hợp lệ không
 function CheckPassword(text) {
-    var pass = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
+    var pass = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
     if(!pass.test(text.value)){
         text.setCustomValidity('Mật khẩu không hợp lệ (Cần có ít nhất 8 ký tự bao gồm viết hoa và ký tự đặc biệt)!');
     }    
@@ -33,6 +33,16 @@ function CheckRePassword(text) {
     return true;
 }
 
+function CheckNumber(text) {
+    var number = /((09|03|07|08|05)+([0-9]{8})\b)/;
+    if(!number.test(text.value)){
+        text.setCustomValidity('Số điện thoại của bạn không đúng định dạng');
+    } 
+    else {
+        text.setCustomValidity('Số điện thoại của bạn hợp lệ!');
+    }   
+    return true;
+}
 // const emailEle = document.getElementById('email');
 // const passwordlEle = document.getElementById('password');
 // const btnRegister = document.getElementById('btn-register');

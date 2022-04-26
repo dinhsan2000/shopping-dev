@@ -27,11 +27,11 @@
 body,
 html {
     height: 100%;
-    font-family: Poppins-Regular, sans-serif
+    font-family: Cairo, sans-serif
 }
 
 a {
-    font-family: Poppins-Regular;
+    font-family: Cairo;
     font-size: 14px;
     line-height: 1.7;
     color: #666;
@@ -61,7 +61,7 @@ h6 {
 }
 
 p {
-    font-family: Poppins-Regular;
+    font-family: Cairo;
     font-size: 14px;
     line-height: 1.7;
     color: #666;
@@ -168,14 +168,14 @@ iframe {
 }
 
 .txt1 {
-    font-family: Poppins-Regular;
+    font-family: Cairo;
     font-size: 13px;
     line-height: 1.5;
     color: #999;
 }
 
 .txt2 {
-    font-family: Poppins-Regular;
+    font-family: Cairo;
     font-size: 13px;
     line-height: 1.5;
     color: #666;
@@ -197,12 +197,12 @@ iframe {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 15px;
-    /* background: #9053c7;
-    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    padding: 8px;
+    background: #F3F6FA;
+    /* background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
     background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
     background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
-    background: linear-gradient(-135deg, #c850c0, #4158d0) */
+    background: linear-gradient(-135deg, #c850c0, #4158d0); */
 }
 
 .wrap-login100 {
@@ -217,8 +217,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 177px 130px 177px 100px;
-    padding-top: 2emx;
+    padding: 100px 130px 177px 100px;
 }
 
 .login100-pic {
