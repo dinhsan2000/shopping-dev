@@ -32,3 +32,35 @@ function CheckRePassword(text) {
     }
     return true;
 }
+
+// const emailEle = document.getElementById('email');
+// const passwordlEle = document.getElementById('password');
+// const btnRegister = document.getElementById('btn-register');
+// const inputEles = document.querySelectorAll('.form-btn');
+
+// btnRegister.addEventListener('click', function () {
+//     Array.from(inputEles).map((ele) =>
+//         ele.classList.remove('success', 'error')
+//     );
+//     let isValid = checkValidate();
+
+//     if (isValid) {
+//         alert('Gửi đăng ký thành công');
+//     }
+// });
+
+// function checkValidate() {
+//     let emailValue = emailEle.value;
+//     let passwordValue = passwordEle.value;
+
+//     let isCheck = true;
+//     if (emailValue == '') {
+//         setError(emailEle, 'Email không được để trống');
+//         isCheck = false;
+//     } else if (!isEmail(emailValue)) {
+//         setError(emailEle, 'Email không đúng định dạng');
+//         isCheck = false;
+//     } else {
+//         setSuccess(emailEle);
+//     }
+// }
