@@ -1,19 +1,4 @@
 @font-face {
-    font-family: Poppins-Regular;
-    src: url(../fonts/poppins/Poppins-Regular.ttf)
-}
-
-@font-face {
-    font-family: Poppins-Bold;
-    src: url(../fonts/poppins/Poppins-Bold.ttf)
-}
-
-@font-face {
-    font-family: Poppins-Medium;
-    src: url(../fonts/poppins/Poppins-Medium.ttf)
-}
-
-@font-face {
     font-family: Montserrat-Bold;
     src: url(../fonts/montserrat/Montserrat-Bold.ttf)
 }
@@ -27,11 +12,11 @@
 body,
 html {
     height: 100%;
-    font-family: Cairo, sans-serif
+    font-family: Be Vietnam Pro, sans-serif
 }
 
 a {
-    font-family: Cairo;
+    font-family: Be Vietnam Pro, sans-serif;
     font-size: 14px;
     line-height: 1.7;
     color: #666;
@@ -61,7 +46,7 @@ h6 {
 }
 
 p {
-    font-family: Cairo;
+    font-family: Be Vietnam Pro;
     font-size: 14px;
     line-height: 1.7;
     color: #666;
@@ -168,14 +153,14 @@ iframe {
 }
 
 .txt1 {
-    font-family: Cairo;
+    font-family: Be Vietnam Pro,sans-serif;
     font-size: 13px;
     line-height: 1.5;
     color: #999;
 }
 
 .txt2 {
-    font-family: Cairo;
+    font-family: Be Vietnam Pro,sans-serif;
     font-size: 13px;
     line-height: 1.5;
     color: #666;
@@ -233,7 +218,7 @@ iframe {
 }
 
 .login100-form-title {
-    font-family: Poppins-Bold;
+    font-family: Be Vietnam Pro,sans-serif;
     font-size: 24px;
     color: #333;
     line-height: 1.2;
@@ -251,7 +236,7 @@ iframe {
 }
 
 .input100 {
-    font-family: Poppins-Medium;
+    font-family: Be Vietnam Pro,sans-serif;
     font-size: 15px;
     line-height: 1.5;
     color: #666;
